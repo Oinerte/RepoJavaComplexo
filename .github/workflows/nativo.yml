@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  PRojeto_Java_Nativo:
+  Projeto_Java_Nativo:
 
     runs-on: ubuntu-latest
 
@@ -24,4 +24,4 @@ jobs:
         distribution: 'temurin'
         
     - name: Compilar com o Java
-      run: javac Main.java
+      run: javac ./src/Main.java
